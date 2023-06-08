@@ -23,4 +23,4 @@ let weather = { //Get you api key from openweathermap.org
     }
 };
 
-weather.fetchWeather("Kansas City"); //Change your location here
+weather.fetchWeather("Kansas City Kansas"); //Change your location here
