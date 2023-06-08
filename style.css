@@ -205,8 +205,8 @@ body{
   overflow: hidden;
   /* background: #000000; */
   border-radius: 10px 0 0 10px;
-  width: auto;
-  height: fit-content;
+  width: 275px;
+  height: auto;
   position: absolute;
   right: 0;
   top: 50%;
