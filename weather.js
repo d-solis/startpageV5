@@ -1,5 +1,5 @@
 let weather = { //Get you api key from openweathermap.org
-    "apikey": "API-HERE",
+    "apikey": "e49ae78c30d6e842a2841907db176af6",
     fetchWeather: function (city) {
         fetch("https://api.openweathermap.org/data/2.5/weather?q="
             + city
@@ -23,4 +23,4 @@ let weather = { //Get you api key from openweathermap.org
     }
 };
 
-weather.fetchWeather("London"); //Change your location here
+weather.fetchWeather("Kansas City"); //Change your location here
