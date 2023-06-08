@@ -205,8 +205,8 @@ body{
   overflow: hidden;
   /* background: #000000; */
   border-radius: 10px 0 0 10px;
-  width: 150px;
-  height: 50px;
+  width: auto;
+  height: fit-content;
   position: absolute;
   right: 0;
   top: 50%;
@@ -232,7 +232,7 @@ body{
   overflow: hidden;
   /* background: #17354498; */
   /* border: 3px solid black; */
-  width: 75px;
+  width: 200px;
   height: auto;
   position: relative;
   background-color: rgba(255, 255, 255, 0.1);
