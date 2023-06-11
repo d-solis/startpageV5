@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono">
 <link rel="stylesheet" href="https://www.fontmirror.com/app_public/files/t/1/2022/12/LED%20Dot-Matrix.ttf">
 
-
 html,
 body,
 div,
@@ -141,7 +140,7 @@ body{
   background-size: cover;
   background-position: center;
   color: #D6D8DB;
-  font-family: Roboto;
+  font-family: JetBrains Mono;
   backdrop-filter: blur(10px) brightness(0.5);
 }
 #my{
@@ -157,7 +156,7 @@ zoom: 90%;
 }
 
 #day-of-week {
-  font-family: Roboto;
+  font-family: JetBrains Mono;
   text-transform: uppercase;
   font-size: 5.5em;
   letter-spacing: 20px;
@@ -168,7 +167,7 @@ zoom: 90%;
 #date {
   font-size: 2.5em;
   color: #f0f0f0;
-  font-family: Roboto;
+  font-family: JetBrains Mono;
 }
 
 #time {
