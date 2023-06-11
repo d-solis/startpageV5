@@ -3,7 +3,6 @@
    License: none (public domain)
 */
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono">
-<link rel="stylesheet" href="https://www.fontmirror.com/app_public/files/t/1/2022/12/LED%20Dot-Matrix.ttf">
 
 html,
 body,
@@ -219,6 +218,7 @@ zoom: 90%;
   gap: 0.4em;
   padding: 0.4em;
   font-family: 'LED Dot-Matrix';
+  src: url("https://www.fontmirror.com/app_public/files/t/1/2022/12/LED%20Dot-Matrix.ttf");
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
