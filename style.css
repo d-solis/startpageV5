@@ -90,7 +90,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  zoom: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -141,6 +140,9 @@ body{
   color: #D6D8DB;
   font-family: Roboto;
   backdrop-filter: blur(10px) brightness(0.5);
+}
+#my{
+zoom: 90%;
 }
 #items-container {
   width: min-content;
