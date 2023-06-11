@@ -140,9 +140,6 @@ body{
   font-family: JetBrains Mono;
   backdrop-filter: blur(10px) brightness(0.5);
 }
-#my{
-zoom: 90%;
-}
 #items-container {
   width: min-content;
   margin-left: 4rem;
@@ -236,7 +233,7 @@ zoom: 90%;
   /* background: #17354498; */
   /* border: 3px solid black; */
   width: 200px;
-  height: auto;
+  height: 75px;
   position: relative;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
