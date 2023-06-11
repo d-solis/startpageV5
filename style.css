@@ -282,8 +282,8 @@ zoom: 90%;
 }
 /* Thank you hyperplexed!! */
 .card img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   padding: 1em;
 }
 ul.card:nth-child(1):hover {
