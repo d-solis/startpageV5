@@ -215,7 +215,7 @@ zoom: 90%;
   transform: translateY(-50%);
   gap: 0.4em;
   padding: 0.4em;
-  font-family: 'LED Dot-Matrix';
+  font-family: LED Dot-Matrix;
   src: url("https://www.fontmirror.com/app_public/files/t/1/2022/12/LED%20Dot-Matrix.ttf");
   display: grid;
   grid-template-columns: 1fr 1fr;
