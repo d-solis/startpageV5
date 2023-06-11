@@ -284,7 +284,7 @@ zoom: 90%;
 .card img {
   height: 30px;
   width: 30px;
-  padding: 1em;
+  padding: 15px;
 }
 ul.card:nth-child(1):hover {
   box-shadow: inset 0 0 0 1.6px #ff2500;
