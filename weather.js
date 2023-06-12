@@ -1,26 +1,33 @@
-let weather = { //Get you api key from openweathermap.org
-    "apikey": "e49ae78c30d6e842a2841907db176af6",
-    fetchWeather: function (city) {
-        fetch("https://api.openweathermap.org/data/2.5/weather?q="
-            + city
-            + "&units=metric&appid="
-            + this.apikey)
-            .then((Response) => Response.json())
-            .then((data) => this.displayWeather(data));
+let weather = {
+    // Get your API key from openweathermap.org
+    apikey: "e49ae78c30d6e842a2841907db176af6",
+  
+    fetchWeather: function (location) {
+      fetch(
+        "https://api.openweathermap.org/data/2.5/weather?id=" +
+          location +
+          "&units=imperial&appid=" +
+          this.apikey
+      )
+        .then((response) => response.json())
+        .then((data) => this.displayWeather(data));
     },
-
+  
     displayWeather: function (data) {
-        const { icon, description } = data.weather[0];
-        const { temp } = data.main;
-        temp = round(temp);
-        document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
-        document.querySelector(".description").innerText = description;
-        document.querySelector(".temp").innerText = temp + "°C";
+      const { icon, description } = data.weather[0];
+      let { temp } = data.main;
+      temp = Math.round(temp);
+      document.querySelector(".icon").src =
+        "https://openweathermap.org/img/wn/" + icon + ".png";
+      document.querySelector(".description").innerText = description;
+      document.querySelector(".temp").innerText = temp + "°F";
     },
-
+  
     search: function () {
-        this.fetchWeather(document.querySelector(".searchbar").value);
-    }
-};
-
-weather.fetchWeather("Kansas City Kansas"); //Change your location here
+      const cityId = document.querySelector(".searchbar").value;
+      this.fetchWeather(cityId);
+    },
+  };
+  
+  weather.fetchWeather("4273857"); // Example: London, United Kingdom (City ID: 2643743)
+  

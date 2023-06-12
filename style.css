@@ -174,7 +174,7 @@ body{
 .weather {
   animation: slide 0.7s ease-in-out;
   margin-top: auto;
-  background: linear-gradient(to left, #e3de9588, #5ec1f099);
+  background: linear-gradient(to left, #3762b1, #635b94);
   width: min-content;
   padding: 0.7em;
   border-radius: 0.8em;
@@ -200,7 +200,14 @@ body{
   }
 }
 
+@font-face {
+  font-family: "LED Dot-Matrix";
+  src: url("./fonts/LED-Dot-Matrix.ttf");
+}
+
 #cards {
+  src: url("./fonts/LED-Dot-Matrix.ttf");
+  font-family: "LED Dot-Matrix";
   overflow: hidden;
   /* background: #000000; */
   border-radius: 10px 0 0 10px;
@@ -212,8 +219,6 @@ body{
   transform: translateY(-50%);
   gap: 0.4em;
   padding: 0.4em;
-  font-family: LED Dot-Matrix;
-  src: url("https://www.fontmirror.com/app_public/files/t/1/2022/12/LED%20Dot-Matrix.ttf");
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -233,7 +238,7 @@ body{
   /* background: #17354498; */
   /* border: 3px solid black; */
   width: 200px;
-  height: 75px;
+  height: 110px;
   position: relative;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
@@ -279,31 +284,43 @@ body{
 }
 /* Thank you hyperplexed!! */
 .card img {
-  height: 30px;
-  width: 30px;
-  padding: 15px;
+  height: 32px;
+  width: 32px;
+  padding: 14px;
 }
 ul.card:nth-child(1):hover {
-  box-shadow: inset 0 0 0 1.6px #ff2500;
+  box-shadow: inset 0 0 0 1.6px #4174f4;
 }
 
 ul.card:nth-child(2):hover {
-  box-shadow: inset 0 0 0 1.6px #00ad6f;
+  box-shadow: inset 0 0 0 1.6px #3c8dbc;
 }
 ul.card:nth-child(3):hover {
-  box-shadow: inset 0 0 0 1.6px #1793cd;
+  box-shadow: inset 0 0 0 1.6px #ffffff;
 }
 ul.card:nth-child(4):hover {
   box-shadow: inset 0 0 0 1.6px #fdc600;
 }
 ul.card:nth-child(5):hover {
-  box-shadow: inset 0 0 0 1.6px #fdfdfd;
+  box-shadow: inset 0 0 0 1.6px #0072c6;
 }
 ul.card:nth-child(6):hover {
-  box-shadow: inset 0 0 0 1.6px #d1b3f8;
+  box-shadow: inset 0 0 0 1.6px #ff4500;
+}
+ul.card:nth-child(7):hover {
+  box-shadow: inset 0 0 0 1.6px #6876cc;
+}
+ul.card:nth-child(8):hover {
+  box-shadow: inset 0 0 0 1.6px #ff0000;
 }
 @media only screen and (min-height: 900px) {
+  @font-face {
+    font-family: "LED Dot-Matrix";
+    src: url("./fonts/LED-Dot-Matrix.ttf");
+  }
+  
   #cards {
+    font-family: "LED Dot-Matrix";
     overflow: hidden;
     /* background: #000000; */
     border-radius: 10px 0 0 10px;
@@ -315,8 +332,6 @@ ul.card:nth-child(6):hover {
     transform: translateY(-50%);
     gap: 0.4em;
     padding: 0.4em;
-    font-family: 'LED Dot-Matrix';
     display: grid;
     grid-template-columns: 1fr;
   }
-}
