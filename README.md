@@ -6,5 +6,6 @@
 
 # Thanks
 
-- Mond rainmeter theme
-- Hyperplexed
+ - Mond rainmeter theme
+ - Hyperplexed
+ - Tnixc 
