@@ -7,6 +7,7 @@
 ### Changes made by me.
 
  - Added personal links/shortcuts
+ - Added a search bar
  - Fixed the javascript responsible for getting the weather information.
  - Changed the fonts, and having them stored locally.
  - Changed the background with other minior cosmetic changes.
