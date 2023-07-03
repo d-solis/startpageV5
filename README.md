@@ -2,7 +2,7 @@
 
 ### An easily customizable web page made with html, css and vanilla js.
 
-![image](https://github.com/d-solis/startpageV5/assets/43517199/099886f8-c0c6-4c8a-bb2d-705a6542ba15)
+![image](https://github.com/d-solis/startpageV5/assets/43517199/d58187bd-db3c-4c4e-9c53-6daaf7be8ddb)
 
 ### Changes made by me.
 
