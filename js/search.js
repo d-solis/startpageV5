@@ -3,8 +3,10 @@ const searchButton = document.getElementById('search-button');
 const searchIcon = document.getElementById('search-icon');
 let currentSearchEngine = 0;
 
-const searchEngines = [ // Move your primary search engine to the top if you want it to be selected by default
-  { url: 'https://www.startpage.com/sp/search', icon: './img/search-startpage.png' }, 
+// Move your primary search engine to the top if you want it to be selected by default
+
+const searchEngines = [
+  // Startpage search engine no worky :( // { url: 'https://www.startpage.com/do/dsearch?query=%s', icon: './img/search-startpage.png' }, 
   { url: 'https://search.brave.com/search?q=', icon: './img/search-brave.png' },
   { url: 'https://duckduckgo.com/?t=h_&q=', icon: './img/search-ddg.png' },
   { url: 'https://www.google.com/search?q=', icon: './img/search-google.png' },
