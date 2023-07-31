@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>~</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="items-container">
+    <h1 id="day-of-week">Friday</h1>
+    <h2 id="date">07/27/2023</h2>
+
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button id="search-button"><img id="search-icon" src="./img/search-brave.png" alt="Search"></button>
+    </div>
+
+    <div id="weather" class="weather loading">
+      <h2 class="city">Weather in Kansas City </h2>
+      <div id="temp-and-symbol">
+        <h1 class="temp">21°C</h1>
+        <img src="https://openweathermap.org/img/wn/02n.png" class="icon" alt="Weather Icon" />
+      </div>
+    </div>
+    <h1 id="time" class="time">00:00</h1>
+  </div>
+
+  <div id="cards">
+    <ul class="card">
+      <img src="./img/clever.png" alt="" />
+      <a href="https://clever.com/">Clever</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/nextcloud.png" alt="" />
+      <a href="https://d-solis-next.duckdns.org/">Nextcloud</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/github.png" alt="" />
+      <a href="https://github.com/d-solis/">Github</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/gmail.png" alt="" />
+      <a href="https://mail.google.com/mail/u/0/#inbox">GMail</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/outlook.png" alt="" />
+      <a href="https://outlook.live.com/mail/0/">Outlook</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/music.png" alt="" />
+      <a href="https://feishin-ewucz9itz-jeffvli.vercel.app//">Music</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/jellyfin.png" alt="" />
+      <a href="https://dsolisjfin.duckdns.org/">Jellyfin</a>
+    </ul>
+    <ul class="card">
+      <img src="./img/youtube.png" alt="" />
+      <a href="https://www.youtube.com/">YouTube</a>
+    </ul>
+  </div>
+
+  <script src="./js/search.js"></script>
+
+  <script src="./js/weather.js"></script>
+
+  <script src="./js/time.js"></script>
+
+  <script src="./js/card-borders.js"></script>
+
+  <script src="./js/update-date.js"></script>
+
+</body>
+</html>
