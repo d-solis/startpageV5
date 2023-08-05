@@ -1,4 +1,10 @@
-# A simple start page
+<h1 align="left">A simple startpage
+
+
+<img src="https://img.shields.io/github/watchers/d-solis/startpageV5?color=%238AB4F8&labelColor=101012&label=watchers&style=for-the-badge" width=100 height=30 align="right" />
+<img src="https://img.shields.io/github/stars/d-solis/startpageV5?color=%238AB4F8&labelColor=101012&label=stars&style=for-the-badge" width=100 height=30 align="right" />
+
+</h1> 
 
 ### An easily customizable web page made with html, css and vanilla js.
 
