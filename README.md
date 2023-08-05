@@ -24,3 +24,10 @@
  - Mond rainmeter theme
  - Hyperplexed
  - Tnixc 
+
+
+
+![image](https://raw.githubusercontent.com/d-solis/dotfiles/main/assets/cat.svg)
+<h3 align="center">
+Thanks for stopping by!
+</h3>
