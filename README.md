@@ -12,10 +12,11 @@
 
 ### Changes made by me.
 
- - Added personal links/shortcuts
+ - Added personal links/shortcuts.
  - Added a search bar that can change search engines by pressing the current search engine icon!
  - Fixed the javascript responsible for getting the weather information.
- - Organized the javascript inside the index.html
+ - Fixed Wallpaper repeating effect.
+ - Organized the javascript inside the index.html.
  - Updated the font system to have the fonts stored locally within the fonts folder, so it doesnt have to rely on them being installed, it should just work.
  - Changed the background with other minor cosmetic changes.
 
