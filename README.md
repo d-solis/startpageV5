@@ -21,7 +21,7 @@
 
 ### Thanks
 
- - Tnixc 
+ - [Tnixc](https://github.com/Tnixc)
 
 
 
