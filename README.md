@@ -13,16 +13,14 @@
 ### Changes made by me.
 
  - Added personal links/shortcuts
- - Added a search bar & it can change search engines by pressing the current search engine icon!
+ - Added a search bar that can change search engines by pressing the current search engine icon!
  - Fixed the javascript responsible for getting the weather information.
  - Organized the javascript inside the index.html
- - Changed the fonts, and having them stored locally.
- - Changed the background with other minior cosmetic changes.
+ - Updated the font system to have the fonts stored locally within the fonts folder, so it doesnt have to rely on them being installed, it should just work.
+ - Changed the background with other minor cosmetic changes.
 
 ### Thanks
 
- - Mond rainmeter theme
- - Hyperplexed
  - Tnixc 
 
 
